@@ -1,0 +1,7 @@
+{
+    "diretorio_webdriver": "Cole o caminho do ChromeDriver aqui",
+    "esconder_webdriver": false,
+    "country": "brasil",
+    "cnpj_mc_donalds": "CNPJ do MC Donalds, somente numeros",
+    "quantia": 1
+}
