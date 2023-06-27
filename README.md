@@ -8,6 +8,10 @@ MC Sundae. O cupom de desconto lhe permite comer 2 sorvetes MC Sundae pelo preç
 
 - Abaixo do cupom possui o código do cupom, o script busca extrai-lo juntamente da data de validade.
 
+# Preview
+
+![Preview](https://s11.gifyu.com/images/SQUjR.gif)
+
 ## Requisitos
 - **Python 3.8 ou mais recente.**
 - **Selenium (instalar com pip)**
