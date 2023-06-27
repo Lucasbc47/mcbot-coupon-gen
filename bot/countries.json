@@ -1,0 +1,22 @@
+{
+    "argentina": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[1]/span/span",
+    "aruba": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[2]/span/span",
+    "brasil": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[3]/span/span",
+    "chile": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[4]/span/span",
+    "colombia": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[5]/span/span",
+    "costa-rica": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[6]/span/span",
+    "curacao": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[7]/span/span",
+    "ecuador": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[8]/span/span",
+    "french-guyana": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[9]/span/span",
+    "guadalupe": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[10]/span/span",
+    "martinique": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[11]/span/span",
+    "mexico": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[12]/span/span",
+    "panama": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[13]/span/span",
+    "peru": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[14]/span/span",
+    "puerto-rico": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[15]/span/span",
+    "saint-croix": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[16]/span/span",
+    "saint-thomas": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[17]/span/span",
+    "trinidad-tobago": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[18]/span/span",
+    "uruguay": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[19]/span/span",
+    "venezuela": "//*[@id=\"surveyQuestions\"]/fieldset/div/div[20]/span/span"
+  }  
