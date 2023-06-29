@@ -15,7 +15,7 @@ MC Sundae. O cupom de desconto lhe permite comer 2 sorvetes MC Sundae pelo preç
 ## Requisitos
 - **Python 3.8 ou mais recente.**
 - **Selenium (instalar com pip)**
-- **Nota fiscal com CNPJ do MC Donald's da sua região**
+- **Nota fiscal com CNPJ do MC Donald's da sua região** (não obrigatório)
 - **ChromeDriver**
 
 
@@ -43,11 +43,11 @@ e edite com suas configurações
     "diretorio_webdriver": "Cole o caminho do ChromeDriver aqui",
     "esconder_webdriver": false,
     "country": "brasil",
-    "cnpj_mc_donalds": "CNPJ do MC Donalds, somente numeros",
+    "cnpj_mc_donalds": "42591651091602",
     "quantia": 1
 }
 ```
-
+No exemplo utilizei CNPJ do Shopping interlagos, você pode usar também.
 Salve o arquivo e pronto! agora você pode executar o script no terminal e gerar os códigos.
 
 ```bash
@@ -66,7 +66,7 @@ from bot.mcbot import MCBot
 bot = MCBot(
     hidden=True,
     country="brasil",
-    cnpj_mc=00000000,
+    cnpj_mc=42591651091602,
     quantia=2
 )
 
