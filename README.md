@@ -57,6 +57,31 @@ python example.py
 O script irá imprimir o código gerado e até quando o mesmo é válido, 
 tambem será salvo no arquivo **códigos.txt**.
 
+## Exemplo de utilização
+
+```py
+from bot.mcbot import MCBot
+
+## vai gerar 2 códigos, esconder webdriver ativado.
+bot = MCBot(
+    hidden=True,
+    country="brasil",
+    cnpj_mc=00000000,
+    quantia=2
+)
+
+## caso você esteja no Linux 
+bot.executable_path=config["diretorio_webdriver"]
+## se nao, remova a linha acima
+
+## caso você esteja no Windows 
+bot.service = Service(config["diretorio_webdriver"])
+## se nao, remova a linha acima
+
+## Começa gerar
+bot.start_gen()
+``` 
+
 ## Autor
 
 - [Lucas Barboza Costa](https://github.com/Lucasbc47)
