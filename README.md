@@ -10,7 +10,7 @@ MC Sundae. O cupom de desconto lhe permite comer 2 sorvetes MC Sundae pelo preç
 
 # Preview
 
-![Preview](https://s11.gifyu.com/images/SQUjR.gif)
+![Preview](https://s12.gifyu.com/images/SQYiG.gif)
 
 ## Requisitos
 - **Python 3.8 ou mais recente.**
