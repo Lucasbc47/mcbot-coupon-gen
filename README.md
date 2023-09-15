@@ -86,6 +86,10 @@ bot.start_gen()
 
 - [Lucas Barboza Costa](https://github.com/Lucasbc47)
 
+## Background
+
+Uma tarde com os amigos no MC, uma funcionária nos apresentou a oferta. Era simples, fazer o questionário e conseguir os 2 sorvetes pelo preço de 1. Na época era um MC Flurry Ovomaltine Rocks, realizamos a pesquisa e conseguimos os sorvetes. Como um apaixonado em automatização e sorvetes resolvi automatizar o questionário. 🤣
+
 ## License
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
