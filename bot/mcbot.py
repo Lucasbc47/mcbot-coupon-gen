@@ -4,19 +4,17 @@ import datetime
 
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 class MCBot(Chrome):
     def __init__(self, *args, **kwargs):
-
+        self.service = kwargs.pop('service', None)
         self.hidden = kwargs.pop('hidden', False)
         self.amount = kwargs.pop('amount', 1)
-
         self.country = kwargs.pop('country')
         self.cnpj_mc = kwargs.pop('cnpj_mc')
-
         self.quantia = kwargs.pop('quantia')
         self.base_url = 'https://mcexperienciasurvey.com/Index.aspx'
 
@@ -25,10 +23,9 @@ class MCBot(Chrome):
             options.add_argument('--headless')
 
         os.system("cls" if os.name == "nt" else 'clear')
-
         print(f"[>] Gerando códigos\n[>] 10s minimo para geração")
 
-        super().__init__(*args, options=options, **kwargs)
+        super().__init__(service=self.service, options=options, **kwargs)
 
     def get_country_xpath(self):
         script_dir = os.path.dirname(__file__)
