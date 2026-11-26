@@ -1,5 +1,9 @@
 # MCBot 
 
+> [!WARNING]
+> **Projeto arquivado (2026).** Este script não funciona mais e não recebe
+> manutenção. Ficou aqui só como registro de um estudo de automação com Selenium.
+
 MCBot é uma ferramenta em Python para gerar códigos de desconto do
 MC Sundae. O cupom de desconto lhe permite comer 2 sorvetes MC Sundae pelo preço de R$ 14,90. Em outras palavras, ele automatiza o processo do questionário de experiencia que o próprio MC Donald's disponibiliza. Clique [aqui](https://mcexperienciasurvey.com/) para ver o site que é automatizado e preenchido.
 
@@ -15,7 +19,6 @@ MC Sundae. O cupom de desconto lhe permite comer 2 sorvetes MC Sundae pelo preç
 ## Requisitos
 - **Python 3.8 ou mais recente.**
 - **Selenium (instalar com pip)**
-- **Nota fiscal com CNPJ do MC Donald's da sua região** (não obrigatório)
 - **ChromeDriver**
 
 
@@ -43,11 +46,10 @@ e edite com suas configurações
     "diretorio_webdriver": "Cole o caminho do ChromeDriver aqui",
     "esconder_webdriver": false,
     "country": "brasil",
-    "cnpj_mc_donalds": "42591651091602",
+    "cnpj_mc_donalds": "CNPJ do MC Donalds, somente numeros",
     "quantia": 1
 }
 ```
-No exemplo utilizei CNPJ do Shopping interlagos, você pode usar também.
 Salve o arquivo e pronto! agora você pode executar o script no terminal e gerar os códigos.
 
 ```bash
@@ -66,7 +68,7 @@ from bot.mcbot import MCBot
 bot = MCBot(
     hidden=True,
     country="brasil",
-    cnpj_mc=42591651091602,
+    cnpj_mc="CNPJ do MC Donalds, somente numeros",
     quantia=2
 )
 
@@ -81,6 +83,20 @@ bot.service = Service(config["diretorio_webdriver"])
 ## Começa gerar
 bot.start_gen()
 ``` 
+
+## Status em 2026
+
+O fluxo da pesquisa mudou desde a versão deste repositório:
+
+- **Os XPaths quebraram.** A ordem das opções agora muda a cada carregamento,
+  e as perguntas mudaram de ids e de páginas.
+- **O benefício saiu da página.** No lugar do código impresso no
+  `#CouponDemoImage`, a pesquisa entrega um link para o app do Méqui, que só
+  pode ser usado uma vez. _Honestamente, decepcionado com o que fizeram_
+- **O site checa um campo escondido** (`JavaScriptEnabled`) e bloqueia
+  clientes que não o preenchem.
+
+Por isso o projeto foi arquivado.
 
 ## Autor
 
