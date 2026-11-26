@@ -92,7 +92,7 @@ O fluxo da pesquisa mudou desde a versão deste repositório:
   e as perguntas mudaram de ids e de páginas.
 - **O benefício saiu da página.** No lugar do código impresso no
   `#CouponDemoImage`, a pesquisa entrega um link para o app do Méqui, que só
-  pode ser usado uma vez.
+  pode ser usado uma vez. _Honestamente, decepcionado com o que fizeram_
 - **O site checa um campo escondido** (`JavaScriptEnabled`) e bloqueia
   clientes que não o preenchem.
 
