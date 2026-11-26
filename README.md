@@ -98,6 +98,9 @@ O fluxo da pesquisa mudou desde a versão deste repositório:
 
 Por isso o projeto foi arquivado.
 
+A reescrita de 2026, sem Selenium (só `requests` + `beautifulsoup4`), está em
+[`v2026/`](v2026/), com o próprio README.
+
 ## Autor
 
 - [Lucas Barboza Costa](https://github.com/Lucasbc47)
