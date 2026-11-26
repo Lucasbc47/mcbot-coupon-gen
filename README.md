@@ -1,8 +1,8 @@
 # MCBot 
 
 > [!WARNING]
-> **Projeto arquivado (2026).** Este script não funciona mais e não recebe
-> manutenção. Ficou aqui só como registro de um estudo de automação com Selenium.
+> **Versão antiga, veja versão nova em (2026) sem Selenium (só `requests` + `beautifulsoup4`), está em
+[`v2026/`](v2026/), com o próprio README..** 
 
 MCBot é uma ferramenta em Python para gerar códigos de desconto do
 MC Sundae. O cupom de desconto lhe permite comer 2 sorvetes MC Sundae pelo preço de R$ 14,90. Em outras palavras, ele automatiza o processo do questionário de experiencia que o próprio MC Donald's disponibiliza. Clique [aqui](https://mcexperienciasurvey.com/) para ver o site que é automatizado e preenchido.
@@ -96,8 +96,6 @@ O fluxo da pesquisa mudou desde a versão deste repositório:
 - **O site checa um campo escondido** (`JavaScriptEnabled`) e bloqueia
   clientes que não o preenchem.
 
-Por isso o projeto foi arquivado.
-
 A reescrita de 2026, sem Selenium (só `requests` + `beautifulsoup4`), está em
 [`v2026/`](v2026/), com o próprio README.
 
@@ -107,7 +105,7 @@ A reescrita de 2026, sem Selenium (só `requests` + `beautifulsoup4`), está em
 
 ## Background
 
-Uma tarde com os amigos no MC, uma funcionária nos apresentou a oferta. Era simples, fazer o questionário e conseguir os 2 sorvetes pelo preço de 1. Na época era um MC Flurry Ovomaltine Rocks, realizamos a pesquisa e conseguimos os sorvetes. Como um apaixonado em automatização e sorvetes resolvi automatizar o questionário. 🤣
+Uma tarde com os amigos no MC, uma funcionária nos apresentou a oferta. Era simples, fazer o questionário e conseguir os 2 sorvetes pelo preço de 1. Na época era um MC Flurry Ovomaltine Rocks, realizamos a pesquisa e conseguimos os sorvetes. Como um apaixonado em automação e sorvetes resolvi automatizar o questionário. 🤣
 
 ## License
 
